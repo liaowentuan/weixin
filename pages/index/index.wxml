@@ -1,0 +1,32 @@
+<!--view> Hello {{name}}! </view>
+<view hover-class='show' hover-start-time='0' hover-stay-time='0'>{{age}}</view>
+<view>{{latitude}}</view>
+<view>{{getLocation.latitude}}</view>
+<button bindtap="changeName"> Click me! </button>
+<button bindlongpress="myAlert" bindtap="changeName">长按弹出</button>
+<view class="section">
+  <view class="section__title">flex-direction: row</view>
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+</view>
+<view class="section">
+  <view class="section__title">flex-direction: column</view>
+  <view class="flex-wrp" style="height: 300px;flex-direction:column;">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+</view-->
+<view>
+<view class="index-top">
+  <input class="input" type='text' placeholder='寻找宝贝商铺' placeholder-style="color:#fff" bindconfirm="showData" bindfocus="showShop"></input>
+</view>
+<view class='{{show==1?"show":"hide"}}'>
+  <button plain='true' class="closeIcon btn-container" bindtap="close">×</button>
+  <view>精彩优惠券去领取</view>
+</view>
+  <navigator url="/pages/map/map" hover-class="navigator-hover">查看地图</navigator>
+</view>

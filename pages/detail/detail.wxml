@@ -1,0 +1,17 @@
+<view>
+  <view class="index-top">
+    <input class="input" type='text' placeholder='宝贝' placeholder-style="color:#fff" bindconfirm="searchShopping" bindblur="searchShopping"></input><image bindtap='home' src='../img/首页1.png' class="inputIcon"></image>
+  </view>
+</view>
+<scroll-view>
+  <view wx:for="{{arr}}"  wx:key="index" wx:for-item="i">
+    <view class="media">
+      <view class="img-container">
+      <image src="{{i.img2}}" class="img"></image>
+      <view>{{i.title}}</view>
+      </view>
+    </view>
+    
+  </view>
+</scroll-view>
+  

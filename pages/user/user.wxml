@@ -1,0 +1,4 @@
+<view>
+  {{userName}}
+  <label for='userName'></label><input type='text' id='userName'></input>
+</view>

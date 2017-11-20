@@ -1,0 +1,61 @@
+.bc_green, .bc_red, .bc_blue {
+  width: 50px;
+  height: 50px;
+}
+
+.bc_green {
+  background: green;
+}
+
+.bc_red {
+  background: red;
+}
+
+.bc_blue {
+  background: blue;
+}
+.index-top {
+  width: 100%;
+  background: rgb(254, 84, 0);
+  padding: 5px 0;
+  line-height: 50px;
+}
+.input {
+  text-align: left;
+  padding-left:10px;
+  width: 80%;
+  margin: 0 0 0 5px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #e4393a;
+  color: #fff;
+  float: left
+}
+.inputIcon{
+  width:32px;
+  height:32px;
+  display:block;
+  margin:0 auto;
+}
+.hide {
+  display: none;
+}
+.show{
+  display: block;
+}
+view>button[plain]{
+  background-color: #fff;
+}
+.media{
+  width: 50%;
+  float: left;
+}
+.img-container{
+  width: 120px;
+  height: 120px;
+}
+.img{
+  width:100%;
+  height: 100%;
+}

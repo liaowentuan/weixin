@@ -1,0 +1,58 @@
+.bc_green, .bc_red, .bc_blue {
+  width: 50px;
+  height: 50px;
+}
+
+.bc_green {
+  background: green;
+}
+
+.bc_red {
+  background: red;
+}
+
+.bc_blue {
+  background: blue;
+}
+
+.index-top {
+  width: 100%;
+  background: rgb(254, 84, 0);
+  padding: 5px 0;
+  line-height: 50px;
+}
+
+.input {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #e4393a;
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  background: #ddd;
+  height: 70px;
+  line-height: 70px;
+}
+
+.btn-container{
+  height: 70px;
+  float:left;
+  width: 30px;
+  border:1px solid transparent;
+  border-radius: 0px;
+  line-height: 70px;
+  padding-left:0px;
+  padding-right: 0px;
+}
+view>button[plain]{
+  background-color: #fff;
+}
